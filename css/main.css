@@ -1,0 +1,175 @@
+@import url("fonts.css");
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0 80px;
+    padding: 0;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body p {
+    font-family: OpenSans;
+}
+
+.conteiner {
+    margin-left: 98px;
+}
+
+#top_menu {
+    display: flex;
+    line-height: 47px;
+    margin-top: -15px;
+}
+
+.logo p {
+    font-size: 36px;
+    height: 37px;
+    width: 150px;
+}
+
+.menu {
+    margin-left: 370px;
+    margin-top: 35px;
+}
+
+.menu a {
+    color: #000;
+    font-size: 20px;
+    margin: 32px;
+}
+
+.callback {
+    background: #3750d0;
+    border-radius: 6px;
+    width: 272px;
+    height: 52px;
+    margin-left: 230px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.callback a {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#content {
+    width: 580px;
+}
+
+#content p {
+    font-size: 20px;
+}
+
+.park {
+    width: 575px;
+}
+
+h1 {
+    font-size: 48px;
+    height: 112px;
+    left: 93px;
+    margin-bottom: 18px;
+    margin-top: 100px;
+    top: 202px;
+    width: 610px;
+}
+
+div .quad {
+    margin-left: 860px;
+    margin-top: -450px;
+    position: relative;
+    width: 667px;
+    height: 511px;
+}
+
+.action {
+    display: flex;
+    
+    margin-top: 65px;
+}
+
+.action a {
+    color: #000;
+    font-size: 17px;
+    
+}
+
+.reservation {
+    height: 52px;
+    width: 224px;
+    border: 1px solid #3750D0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px 36px;
+}
+
+.reservation a {
+    line-height: 20px;
+    
+    
+}
+
+.certificate {
+    border: 1px solid #3750D0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 52px;
+    margin-left: 21px;
+    padding: 15px 19px;
+    text-align: center;
+    width: 224px;
+}
+
+.certificate a {
+    font-size: 17px;
+    line-height: 20px;
+    
+}
+
+#center {
+    display: flex;
+    margin-top: 30px;
+}
+
+.address_1 {
+    height: 73px;
+    width: 542px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.address_2 {
+    font-size: 20px;
+    height: 59px;
+    margin-bottom: 44px;
+    width: 570px;
+    line-height: 28px;
+}
+
+#advantages {
+    margin-left: 30px;
+}
+
+.advantages_1 {
+    height: 79px;
+    width: 540px;;
+}
+
+.advantages_2 {
+    font-size: 20px;
+    height: 55px;
+    width: 500px;
+}
+
+.row {
+    display: flex;
+}
