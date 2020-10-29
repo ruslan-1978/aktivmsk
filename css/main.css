@@ -1,6 +1,6 @@
 @import url("fonts.css");
 
-body {
+/*body {
     font-family: Roboto, sans-serif;
     margin: 0 80px;
     padding: 0;
@@ -168,8 +168,11 @@ h3 {
     font-size: 20px;
     height: 55px;
     width: 500px;
-}
+}*/
 
-.row {
+.reservation__item {
     display: flex;
+}
+ {
+    
 }

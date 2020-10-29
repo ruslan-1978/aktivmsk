@@ -9,58 +9,74 @@
 	<link type="text/css" rel="stylesheet" href="css/main.css" />
 </head>
 <body>
-    <div class="conteiner">
-        <div id="top_menu">
-            <div class="logo">
-                <p>aktivmsk</p>
-            </div>
-            <div class="menu">
-                <a href="#contacts">Контакты</a>
-                <a href="#routes">Маршруты</a>
-            </div>
-            <div class="callback">
-                <a href="#">Обратный звонок</a>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <div class="logo">
+                        <a class="logo__link" href="#">aktivmsk</a> 
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">Контакты</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">Маршруты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="callback__buttons">
+                        <button class="callback__btn">Обратный звонок</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="content">
-            <div class="h1">
-                <h1>Катание на квадроциклах  в Москве</h1>
-            </div>
-            <div class="park">
-                <p>Парк техники клуба «ATV Active» включает четыре мощных двухместных квадроцикла, один детский квадроцикл, два  одноместных квадроцикла. Одновременно катание на квадроциклах может быть организовано для компании из 8 человек.</p>
-            </div>
-            <div class="action">
-                <div class="reservation">
-                    <a href="#">Получить бронь</a> 
-                </div>
-                <div class="certificate"> 
-                    <a href="#">Подарить сертификат</a>    
-                </div>
-            </div>
-            <div class="quad">
-                <img src="images/quad.png" alt="quad" width="667" height="511" />
-            </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <h1 class="header__content-title">Катание на квадроциклах  в Москве</h1>
+                    <p class="header__content-text">
+                        Парк техники клуба «ATV Active» включает четыре мощных
+                        двухместных квадроцикла, один детский квадроцикл, два
+                        одноместных квадроцикла. Одновременно катание на 
+                        квадроциклах может быть организовано для компании 
+                        из 8 человек.
+                    </p>
+                    <div class="header__content__buttons">
+                        <button class="header__reservation__btn">Получить бронь</button>
+                        <button class="header__certificate__btn">Подарить сертификат</button>
+                    </div>
+                </div>                                                     
+                <div class="header__photo">
+                    <img class="header__photo-img" src="images/photo.png" alt=""/>
+                </div>                                                     
+            </div>                                                     
         </div>
-        <div id="center">
-            <div id="address">
-                <div class="address_1">
-                    <h3>Приходите к нам по любому из адресов</h3>
+    </header>
+    <section class="information">
+        <div class="container">
+            <div class="information__address">
+                <div class="information__address-title">
+                    Приходите к нам по любому из адресов
                 </div>
-                <div class="address_2">
-                    <p>Нажмите точку на карте, чтобы увидеть адрес расположения наших пунктов катаний.</p>
-                </div>
+                <p class="information__address-text">
+                    Нажмите точку на карте, чтобы увидеть адрес 
+                    расположения наших пунктов катаний.
+                </p>
                 <div class="map">
-                    <img src="images/map.png" alt="map" width="570" height="392"/>
+                    <img class="map__img" src="images/map.png" alt="map"/>
                 </div>
             </div>
-            <div id="advantages">
-                <div class="advantages_1">
-                    <h3>Получите самое лучшее развлечение для активного досуга</h3>
+            <div id="information__statistics">
+                <div class="information__statistics-title">
+                    Получите самое лучшее развлечение для активного досуга
                 </div>
-                <div class="advantages_2">
-                    <p>Наш ваш выбор подготовленные квадроциклы различных моделей и мощностей</p>
-                </div>
-                <div class="table">
+                <p class="information__statistics-text">
+                    Наш ваш выбор подготовленные квадроциклы 
+                    различных моделей и мощностей
+                </p>
+                <div class="information__statistics-table">
                     <div class="row">
                         <div class="cell">
                             <p class="number">120</p>
@@ -95,8 +111,387 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="routes">
+        <div class="container">
+            <div class="routes__title">
+                Где и как будем кататься
+            </div>
+            <div class="routes__items">
+                <div class="routes__item">
+                    <div class="routes__item-name">
+                        Маршрут "Активный"
+                    </div>
+                    <div class="routes__item-description">
+                        <a class="routes__description" href="#">Описание маршрута</a>
+                    </div>
+                    <div class="routes__item-time">
+                        <div class="routes__time-title">
+                            1 час
+                        </div>
+                        <div class="routes__time-text">
+                            Продолжительность катаний
+                        </div>
+                    </div>
+                    <div class="routes__item-price">
+                        <div class="routes__price-title">
+                            от 2 500 руб
+                        </div>
+                        <div class="routes__price-text">
+                            Цена за аренду одного квадроцикла
+                        </div>
+                    </div>
+                    <div class="routes__item-point">
+                        <div class="routes__point-title">
+                            5 точек проката  
+                        </div>
+                        <div class="routes__point-text">
+                            Московская область, село Праздничное, Парабельского района
+                        </div>
+                        <div class="routes__item-more">
+                            <a class="routes__more" href="#">Показать еще 4 адреса</a>
+                        </div>
+                    </div>
+                    <div class="routes__item-button">
+                        <button class="routes__item-btn">Получить бронь</button>
+                        <button class="routes__item-btn">В подарок</button>
+                    </div>
+                </div>
+                <div class="routes__item">
+                    <div class="routes__item-name">
+                        Маршрут "Прогулочный"
+                    </div>
+                    <div class="routes__item-description">
+                        <a class="routes__description" href="#">Описание маршрута</a>
+                    </div>
+                    <div class="routes__item-time">
+                        <div class="routes__time-title">
+                            2 часа
+                        </div>
+                        <div class="routes__time-text">
+                            Продолжительность катаний
+                        </div>
+                    </div>
+                    <div class="routes__item-price">
+                        <div class="routes__price-title">
+                            от 3 500 руб
+                        </div>
+                        <div class="routes__price-text">
+                            Цена за аренду одного квадроцикла
+                        </div>
+                    </div>
+                    <div class="routes__item-point">
+                        <div class="routes__point-title">
+                            5 точек проката  
+                        </div>
+                        <div class="routes__point-text">
+                            Московская область, село Праздничное, Парабельского района
+                        </div>
+                        <div class="routes__item-more">
+                            <a class="routes__more" href="#">Показать еще 4 адреса</a>
+                        </div>
+                    </div>
+                    <div class="routes__item-button">
+                        <button class="routes__item-btn">Получить бронь</button>
+                        <button class="routes__item-btn">В подарок</button>
+                    </div>
+                </div>
+                <div class="routes__item">
+                    <div class="routes__item-name">
+                        Маршрут "Бодрый"
+                    </div>
+                    <div class="routes__item-description">
+                        <a class="routes__description" href="#">Описание маршрута</a>
+                    </div>
+                    <div class="routes__item-time">
+                        <div class="routes__time-title">
+                            3 часа
+                        </div>
+                        <div class="routes__time-text">
+                            Продолжительность катаний
+                        </div>
+                    </div>
+                    <div class="routes__item-price">
+                        <div class="routes__price-title">
+                            от 4 500 руб
+                        </div>
+                        <div class="routes__price-text">
+                            Цена за аренду одного квадроцикла
+                        </div>
+                    </div>
+                    <div class="routes__item-point">
+                        <div class="routes__point-title">
+                            5 точек проката  
+                        </div>
+                        <div class="routes__point-text">
+                            Московская область, село Праздничное, Парабельского района
+                        </div>
+                        <div class="routes__item-more">
+                            <a class="routes__more" href="#">Показать еще 4 адреса</a>
+                        </div>
+                    </div>
+                    <div class="routes__item-button">
+                        <button class="routes__item-btn">Получить бронь</button>
+                        <button class="routes__item-btn">В подарок</button>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__title">
+                Посмотрите, что вас ожидает
+            </div>
+            <div class="gallery__list">
+                <img class="gallery__img" src="images/gallery_1.jpg" alt="gallery"/>
+                <img class="gallery__img" src="images/gallery_2.jpg" alt="gallery"/>
+                <img class="gallery__img" src="images/gallery_3.jpg" alt="gallery"/>
+                <img class="gallery__img" src="images/gallery_4.jpg" alt="gallery"/>
+                <img class="gallery__img" src="images/gallery_5.jpg" alt="gallery"/>
+                <img class="gallery__img" src="images/gallery_6.jpg" alt="gallery"/>
+            </div>
+            <video class="gallery__video">
+                <source src="">
+            </video>
+        </div>
+    </section>
+    <section class="certificate">
+        <div class="container">
+            <div class="certificate__title">
+                Подарочный сертификат
+            </div> 
+            <div class="certificate__text">
+                <p>
+                    Не знаете, что подарить на торжество или День рождения? -Подарите необычный и оригинальный 
+                    подарок - сертификат на катания за рулем квадроцикла. Получатель подарка скажет вам "Спасибо" 
+                    за эмоции и драйф, которые он получит.
+                </p>
+            </div> 
+            <div class="certificate__items">
+                <div class="certificate__item">
+                    <div class="certificate__item-img">
+                        <img class="advantages__img" src="images/icon_1.png" alt="icon"/>
+                    </div>
+                    <div class="certificate__advantages">
+                        <div class="certificate__advantages-title">
+                            Удобно
+                        </div>
+                        <div class="certificate__advantages-text">
+                            <p>
+                                Вам не нужно никуда идти за 
+                                подарком, купить электронный 
+                                сертификат можно прямо на 
+                                сайте.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate__item">
+                    <div class="certificate__item-img">
+                        <img class="advantages__img" src="images/icon_2.png" alt="icon"/>
+                    </div>
+                    <div class="certificate__advantages">
+                        <div class="certificate__advantages-title">
+                            Быстро
+                        </div>
+                        <div class="certificate__advantages-text">
+                           <p>
+                               Оформление сертификата 
+                               занимает не больше 3 минут.
+                           </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate__item">
+                    <div class="certificate__item-img">
+                        <img class="advantages__img" src="images/icon_3.png" alt="icon"/>
+                    </div>
+                    <div class="certificate__advantages">
+                        <div class="certificate__advantages-title">
+                            Без рисков
+                        </div>
+                        <div class="certificate__advantages-text">
+                            <p>
+                                Если получателю подарка не 
+                                понравится сертификат, то мы 
+                                вернем вам потраченные на 
+                                подарок деньги.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reservation">
+        <div class="container">
+            <div class="reservation__title">
+                Как получить бронь
+            </div>
+            <div class="reservation__items">
+                <div class="reservation__item">
+                    <div class="reservation__item-text">
+                        <p>
+                            Оплатите часть стоимости брони на 
+                            сайте и получите код записи
+                        </p>
+                    </div>
+                    <img class="reservation__item-img" src="images/reservation_1.jpg" alt="">
+                </div>
+                <div class="reservation__item">
+                    <img class="reservation__item-img" src="images/reservation_2.jpg" alt="">
+                    <div class="reservation__item-text">
+                        <p>
+                            Приезжайте на место катаний, 
+                            покажите код записи инструктору и 
+                            доплатите остаток
+                        </p>
+                    </div>
+                </div>
+                <div class="reservation__item">
+                    <div class="reservation__item-text">
+                        <p>
+                            Пройдите инструктаж и получайте 
+                            массу впечатлений от управления 
+                            квадроциклом
+                        </p>
+                    </div>
+                    <img class="reservation__item-img" src="images/reservation_3.jpg" alt="">
+                </div>
+            </div>
+            <button class="reservation__btn">Перейти к бронированию</button>
+        </div>
+    </section>
+    <section class="questions">
+        <div class="questions__title">
+            Частые вопросы
+        </div>
+        <div class="questions__items">
+            <div class="questions__item">
+                <div class="questions__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </div>
+                <div class="questions__item-img">
+                    <a class="reservation__item-img" href="#"><img src="images/plus.png" alt=""></a>
+                </div>
+            </div>
+            <div class="questions__item questions__item--active">
+                <div class="questions__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </div>
+                <div class="questions__item-text questions__item-text--active">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi, id non 
+                    ultrices vitae. Sagittis vitae, ac nunc ornare tempus dolor suspendisse posuere.
+                </div>
+                <div class="questions__item-img">
+                    <a class="reservation__item-img" href="#"><img src="images/minus.png" alt=""></a>
+                </div>
+            </div>
+            <div class="questions__item">
+                <div class="questions__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </div>
+                <div class="questions__item-img">
+                    <a class="reservation__item-img" href="#"><img src="images/plus.png" alt=""></a>
+                </div>
+            </div>
+            <div class="questions__item">
+                <div class="questions__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </div>
+                <div class="questions__item-img">
+                    <a class="reservation__item-img" href="#"><img src="images/plus.png" alt=""></a>
+                </div>
+            </div>
+            <div class="questions__item">
+                <div class="questions__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </div>
+                <div class="questions__item-img">
+                    <a class="reservation__item-img" href="#"><img src="images/plus.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="slider__img">
+                <img class="slider__img" src="images/quad_2.png" alt="">
+            </div>
+            <div class="slider__items">
+                <div class="slider__item-title">
+                    CEO Заголовок
+                </div>
+                <div class="slider__item-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Porttitor ultrices augue eget id. 
+                        Placerat sodales aliquam, gravida massa netus 
+                        pharetra. Donec bibendum magna neque 
+                        elementum morbi id blandit nisi. Habitasse eget 
+                        eget sit nulla orci purus ac ornare. Diam arcu 
+                        congue est varius. Nulla at sit magna mi vitae 
+                        est. At nisl enim purus quis aliquam 
+                        condimentum. Nulla quis sed pretium bibendum 
+                        est ornare. 
+                    </p>
+                </div>
+                <div class="slider__arrows-left">
+                   <a class="slider__arrow-1" href="#"><img src="images/line_1.png" alt=""></a> 
+                   <a class="slider__arrow-2" href="#"><img src="images/line_2.png" alt=""></a> 
+                </div>
+                <div class="slider__arrows-right">
+                   <a class="slider__arrow-3" href="#"><img src="images/line_2.png" alt=""></a> 
+                   <a class="slider__arrow-4" href="#"><img src="images/line_1.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__title">
+                ATV Active
+            </div>
+            <div class="footer__nav">
+                <nav class="footer__nav-items">
+                    <ul class="footer__nav-item">
+                        <li class="footer__list-item">
+                           <a class="footer__link" href="#">Адреса катаний</a> 
+                        </li>
+                        <li class="footer__list-item">
+                           <a class="footer__link" href="#">О нас</a> 
+                        </li>
+                        <li class="footer__list-item">
+                           <a class="footer__link" href="#">Подарочный сертификат</a> 
+                        </li>
+                    </ul>
+                    <ul class="footer__nav-item">
+                        <li class="footer__list-item">
+                           <a class="footer__link" href="#">Публичная оферта</a> 
+                        </li>
+                        <li class="footer__list-item">
+                           <a class="footer__link" href="#">Политика конфиденциальности</a> 
+                        </li>
+                        <li class="footer__list-item">
+                           <a class="footer__link" href="#">Маршруты катаний</a> 
+                        </li>
+                    </ul>
+                    <ul class="footer__nav-item">
+                        <li class="footer__list-item">
+                           <a class="footer__link" href="#">ATV_Active@domen.ру</a> 
+                        </li>
+                        <li class="footer__list-item">
+                           <a class="footer__link" href="#">89526457878</a> 
+                        </li>
+                        <li class="footer__list-item">
+                           <a class="footer__link" href="#">Домен.ру, 2014 - 2020</a> 
+                        </li>
+                    </ul>
+                </nav>
+                <img class="footer__photo-img" src="images/photo.png" alt=""/>
+            </div>
+        </div>
+    </footer>
 </body>
 </html> 
-
-<img src="images/1.png" alt="" />
